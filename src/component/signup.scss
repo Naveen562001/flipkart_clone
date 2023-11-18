@@ -1,0 +1,108 @@
+
+
+
+
+.Login-Container{
+    
+    width:900px;
+    height:450px;
+    background-color:rgb(176, 180, 196);
+    position: relative;
+    left:300px;
+    top:150px;
+    border-radius: 40px;
+    box-shadow: 6px 6px 6px #888888;
+    #title-login{
+        position: relative;
+        left:550px;
+        top:20px;
+        font-size: large;
+        font-weight: 800;
+        font-family:sans-serif;
+        color:rgb(84, 72, 169)
+    }
+    #log-img1{
+        position: relative;
+        #img-log{
+            position: relative;
+            top:10px;
+            border-radius: 40px;
+            left:20px;
+
+            width:400px;
+            height: 400px;
+        }
+    }
+
+    .login-credential{
+        padding-left:280px;
+        padding-top: 50px;
+        display: flex;
+        position: relative;
+        top:-300px;
+        #in1{
+            padding:20px;
+            label{
+                padding: 20px;
+                position: relative;
+                top:-105px;
+                left: 138px;
+                font-size: large;
+                font-weight: 700;
+                font-family:sans-serif;
+            }
+            input{
+                position: absolute;
+                width:260px;
+                height: 40px;
+                border: 2px solid grey;
+                border-radius: 5px;
+                left:600px;
+                top:-20px;
+            }
+        }
+        #in2{
+             padding:20px;
+             label{
+                padding: 20px;
+                position: relative;
+                top:-105px;
+                left: 138px;
+                font-size: large;
+                font-weight: 700;
+                font-family:sans-serif;
+             }
+             input{
+                position: absolute;
+                left:600px;
+                top:80px;
+                width:260px;
+                height: 40px;
+                border: 2px solid grey;
+                border-radius: 5px;
+            }
+             
+        }
+        #but1{
+            position: relative;
+            left:400px;
+            top: -100px;
+            width: 100px;
+            height: 40px;
+            border-radius: 10px;
+            background-color:rgb(106, 83, 217);
+            font-size: large;
+            font-weight: 600;
+            font-family:sans-serif;
+            color:white
+
+        }
+        
+
+    }
+    #p1{
+        position: relative;
+        left:600px;
+        top:-370px;
+    }
+}
